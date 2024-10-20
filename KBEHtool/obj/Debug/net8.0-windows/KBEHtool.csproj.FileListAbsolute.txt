@@ -1,0 +1,11 @@
+C:\Users\15860\Documents\KBEHtool\KBEHtool\bin\Debug\net8.0-windows\KBEHtool.deps.json
+C:\Users\15860\Documents\KBEHtool\KBEHtool\bin\Debug\net8.0-windows\KBEHtool.dll
+C:\Users\15860\Documents\KBEHtool\KBEHtool\bin\Debug\net8.0-windows\KBEHtool.pdb
+C:\Users\15860\Documents\KBEHtool\KBEHtool\obj\Debug\net8.0-windows\KBEHtool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\15860\Documents\KBEHtool\KBEHtool\obj\Debug\net8.0-windows\KBEHtool.AssemblyInfoInputs.cache
+C:\Users\15860\Documents\KBEHtool\KBEHtool\obj\Debug\net8.0-windows\KBEHtool.AssemblyInfo.cs
+C:\Users\15860\Documents\KBEHtool\KBEHtool\obj\Debug\net8.0-windows\KBEHtool.csproj.CoreCompileInputs.cache
+C:\Users\15860\Documents\KBEHtool\KBEHtool\obj\Debug\net8.0-windows\KBEHtool.dll
+C:\Users\15860\Documents\KBEHtool\KBEHtool\obj\Debug\net8.0-windows\refint\KBEHtool.dll
+C:\Users\15860\Documents\KBEHtool\KBEHtool\obj\Debug\net8.0-windows\KBEHtool.pdb
+C:\Users\15860\Documents\KBEHtool\KBEHtool\obj\Debug\net8.0-windows\ref\KBEHtool.dll

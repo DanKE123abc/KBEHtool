@@ -1,0 +1,11 @@
+/.idea/
+/.vs/
+/KEBHtool/bin/
+/KEBHtool/lib/
+/KEBHtool/obj/
+/KEBHtool.Wpf.Test/bin/
+/KEBHtool.Wpf.Test/obj/
+/publish/
+*.nupkg
+/publish/KEBHtool
+/publish
