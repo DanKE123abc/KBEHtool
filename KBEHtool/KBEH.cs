@@ -1,4 +1,5 @@
-﻿using KBEHtool.Base;
+﻿using System.Windows.Interop;
+using KBEHtool.Base;
 using KBEHtool.Utils;
 
 namespace KBEHtool;

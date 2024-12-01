@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>KBEHtool</id>
+    <version>0.1.0</version>
+    <title>KBEHtool</title>
+    <authors>DanKe</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <!-- <icon>icon.png</icon> -->
+    <projectUrl>https://github.com/DanKE123abc/KBEHtool</projectUrl>
+    <description>Keyboard Behavior Library for Windows</description>
+    <releaseNotes>net8.0-windows</releaseNotes>
+    <copyright>Copyright (c) 2024 - present</copyright>
+    <tags>DanKe Keyboard KBEH Windows</tags>
+  </metadata>
+
+  <files>
+    <file src="lib\net8.0-windows\KBEHtool.dll" target="lib\net8.0\" />
+  </files>
+</package>

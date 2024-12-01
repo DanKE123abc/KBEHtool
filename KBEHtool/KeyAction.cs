@@ -48,6 +48,8 @@ public class KeyAction
         KeyboardEventCenter.RemoveAllListener();
     }
     
+    
+    
     public static void PressKey(KeyCode keyCode ,int delayTime = 0)
     {
         var bvk = KeyCodeConverter.ToVirtualKey(keyCode);
@@ -64,5 +66,33 @@ public class KeyAction
         var bvk = KeyCodeConverter.ToVirtualKey(keyCode);
         ByteVirtualKey.keybd_event(bvk, 0, 2, 0);
     }
+    
+    public static void PressKey(KeyCode[] keyCodes, int delayTime = 0)
+    {
+        foreach (var keyCode in keyCodes)
+        {
+            var bvk = KeyCodeConverter.ToVirtualKey(keyCode);
+            ByteVirtualKey.keybd_event(bvk, 0, 0, 0);
+        }
+        if (delayTime >= 0)
+        {
+            Thread.Sleep(delayTime);
+            foreach (var keyCode in keyCodes)
+            {
+                var bvk = KeyCodeConverter.ToVirtualKey(keyCode);
+                ByteVirtualKey.keybd_event(bvk, 0, 2, 0);
+            }
+        }
+    }
+
+    public static void ReleaseKey(KeyCode[] keyCodes)
+    {
+        foreach (var keyCode in keyCodes)
+        {
+            var bvk = KeyCodeConverter.ToVirtualKey(keyCode);
+            ByteVirtualKey.keybd_event(bvk, 0, 2, 0);
+        }
+    }
+
     
 }

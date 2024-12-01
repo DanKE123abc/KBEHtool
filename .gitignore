@@ -9,3 +9,10 @@
 *.nupkg
 /publish/KEBHtool
 /publish
+/KBEHtool/obj
+/KBEHtool/lib
+/KBEHtool.Wpf.Test/obj
+/KBEHtool.Wpf.Test/bin
+/KBEHtool.Wpf.Test/bin
+/KBEHtool.Wpf.Test/bin
+/KBEHtool/bin
