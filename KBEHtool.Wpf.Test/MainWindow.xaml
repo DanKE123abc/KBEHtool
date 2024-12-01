@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Demo1"
         mc:Ignorable="d"
-        Title="MainWindow" Topmost="True" Height="200" Width="300" Closed="Window_Closed">
+        Title="MainWindow" Topmost="True" Height="250" Width="300" Closed="Window_Closed">
     <Grid>
         <TextBlock x:Name="ds" Text="" FontSize="40" Width="280" Height="50" TextAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+        <Button x:Name="pressVbkButton" Content="按下虚拟按键" FontSize="20" Width="150" Height="50" Margin="0,70,0,0" VerticalAlignment="Bottom" HorizontalAlignment="Center" Click="PressVBK"/>
     </Grid>
 </Window>
+
