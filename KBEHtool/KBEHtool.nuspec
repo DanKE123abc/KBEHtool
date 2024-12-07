@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>KBEHtool</id>
-    <version>0.1.0</version>
+    <version>0.2.0</version>
     <title>KBEHtool</title>
     <authors>DanKe</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -17,5 +17,7 @@
 
   <files>
     <file src="lib\net8.0-windows\KBEHtool.dll" target="lib\net8.0\" />
+    <file src="lib\net7.0-windows\KBEHtool.dll" target="lib\net7.0\" />
+    <file src="lib\net6.0-windows\KBEHtool.dll" target="lib\net6.0\" />
   </files>
 </package>

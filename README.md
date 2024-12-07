@@ -33,6 +33,8 @@ KBEHtool  是一个只适用于Windows的键盘行为工具库，它支持：
 KBEHtool 目前支持的平台：
 
 - .NET 8.0 (Windows)
+- .NET 7.0 (Windows)
+- .NET 6.0 (Windows)
 
 ## 开源许可协议
 
