@@ -10,7 +10,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="KBEHtool" Version="0.1.0" />
+      <ProjectReference Include="..\KBEHtool\KBEHtool.csproj" />
     </ItemGroup>
 
 </Project>

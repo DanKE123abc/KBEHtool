@@ -12,7 +12,7 @@ namespace Demo1
         public MainWindow()
         {
             IntPtr handle = new WindowInteropHelper(this).Handle;
-            KBEH.StartKBEH(handle);
+            KBEH.StartKBEH();
             InitializeComponent();
             KeyAction.AddKeyDownListener((keycode) => MyKeyDown(keycode));
             KeyAction.AddKeyUpListener((keycode) => MyKeyUp(keycode));

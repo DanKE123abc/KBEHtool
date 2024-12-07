@@ -9,13 +9,13 @@ public class KBEH
     private static bool isRunning = false;
     private static KeyboardHook keyboardHook= null;
 
-    public static bool StartKBEH(IntPtr handle)
+    public static bool StartKBEH()
     {
         if (!isRunning)
         {
             try
             {
-                keyboardHook = new KeyboardHook(handle);
+                keyboardHook = new KeyboardHook();
                 return true;
             }
             catch (Exception e)
