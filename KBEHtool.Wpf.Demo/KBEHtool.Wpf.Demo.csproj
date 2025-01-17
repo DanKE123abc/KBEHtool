@@ -2,11 +2,12 @@
 
     <PropertyGroup>
         <OutputType>WinExe</OutputType>
-        <TargetFramework>net8.0-windows</TargetFramework>
+        <TargetFramework>net9.0-windows</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <UseWPF>true</UseWPF>
         <UseWindowsForms>true</UseWindowsForms>
+        <RootNamespace>KBEHtool.Wpf.Test</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>

@@ -12,7 +12,7 @@ namespace Demo1
         public MainWindow()
         {
             IntPtr handle = new WindowInteropHelper(this).Handle;
-            KBEH.StartKBEH();
+            KBEH.Start();
             InitializeComponent();
             KeyAction.AddKeyDownListener((keycode) => MyKeyDown(keycode));
             KeyAction.AddKeyUpListener((keycode) => MyKeyUp(keycode));
@@ -51,13 +51,13 @@ namespace Demo1
 
         private void Window_Closed(object sender, EventArgs e)
         {
-            KBEH.StopKBEH();
+            KBEH.Stop();
         }
 
         private void PressVBK(object sender, RoutedEventArgs e)
         {
             //KeyAction.PressKey(KeyCode.A,1000);
-            KeyAction.PressKey(new [] { KeyCode.LeftControl , KeyCode.Space},1000);
+            KeyAction.PressKey(new [] { KeyCode.LeftAlt , KeyCode.A},1000);//打开微信截图
         }
     }
 }

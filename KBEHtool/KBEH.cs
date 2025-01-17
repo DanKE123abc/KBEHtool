@@ -9,7 +9,7 @@ public class KBEH
     private static bool isRunning = false;
     private static KeyboardHook keyboardHook= null;
 
-    public static bool StartKBEH()
+    public static bool Start()
     {
         if (!isRunning)
         {
@@ -20,15 +20,13 @@ public class KBEH
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
                 return false;
             }
         }
-        Console.WriteLine("KBEH service already running");
         return true;
     }
 
-    public static bool StopKBEH()
+    public static bool Stop()
     {
         if (isRunning)
         {
@@ -41,11 +39,9 @@ public class KBEH
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
                 return false;
             }
         }
-        Console.WriteLine("KBEH service has stopped running");
         return true;
     }
 }
