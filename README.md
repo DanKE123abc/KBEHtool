@@ -10,7 +10,7 @@
 ## 示例Demo
 
 ```shell
-./KBEHtool.Wpf.Test/KBEHtool.Wpf.Test.csproj
+./KBEHtool.Wpf.Demo/KBEHtool.Wpf.Demo.csproj
 ```
 
 ## 特性
